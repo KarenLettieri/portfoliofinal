@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: #dddd;
+    font-family: 'Open Sans';
+}
+.container{
+    height: 100vh;
+    display: flex;
+    
+}
+
+.info{
+    width: 235px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.personal-info{
+    margin-bottom: 30px;
+}
+
+.personal-info .photo{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid #484848;
+    width: 100px;
+    height: 100px;
+}
+
+.personal-info .name-title{
+    font-size: 20px;
+    color: #fff
+}
+
+.personal-info .subtitle {
+    font-size: 16px;
+    color: #8a8a8a;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #9032bb;
+}
+
+.front-page{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)), url(/images/cuantos-lenguajes-de-programacion-existen.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.front-page .name {
+    font-size: 68px;
+    color: #fff
+}
+
+.front-page .last-name {
+    color: #9032bb
+}
+
+.front-page p{
+    font-size: 32px;
+    color: #fff;
+}
+
+.btn-main {
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 4px solid #9032bb;
+    margin-top: 30px;
+    padding: 10px 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-main:hover{
+    background-color: #000;
+}
+
+.btn-main a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.experiences{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #4E4351;
+    background: rgb(78,67,81);
+    background: linear-gradient(180deg, rgba(78,67,81,1) 2%, rgba(116,92,122,1) 64%);
+    color: #ffff;
+    padding: 100px;
+
+
+}
+
+
+
+.experiences h1 {
+    font-size: 60px;
+    padding-bottom: 40px;
+    font-family: 'Roboto';
+    text-shadow: 0px 3px 3px rgba(150, 150, 150, 1);
+
+}
+
+.exp-container{
+    font-size: 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #9999B0;
+    
+    color: black;
+    
+}
+
+.exp-container h2{
+    color: #9032BB;
+    text-shadow: -2px 4px 3px rgba(0,0,0,0.1);
+    font-size: 40px;
+    
+
+}
+.studies h1 {
+    font-size: 60px;
+    color: #ffff;
+    padding-bottom: 40px;
+    font-family: 'Roboto';
+    text-shadow: 0px 3px 3px rgba(150, 150, 150, 1);
+}
+.studies {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    background: rgb(179,167,183);
+    background: linear-gradient(114deg, rgba(179,167,183,1) 2%, rgba(126,115,130,1) 54%);
+}
+
+.std-container{
+    font-size: 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 40px;
+    background-color: #B3A7B7;
+    
+}
+
+.std-container a {
+    text-decoration: none;
+    color: #9032bb;
+}
+
+
+.std-container a:hover{
+    color: #584461;
+}
+
+.std-container h2 {
+    font-size: 40px;
+    color: #9032bb;
+    text-shadow: -2px 4px 3px rgba(0,0,0,0.1);
+
+}
+
+.std-container .first-p{
+    font-style: italic;
+    padding: 5px;
+}
+
+.proyects,
+.contact {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #312834;
+    color: #fff;
+
+}
+
+.proyects a,
+.contact a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+
+
+
